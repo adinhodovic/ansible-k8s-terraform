@@ -15,3 +15,5 @@ RUN pip install jmespath docker boto3 botocore netaddr psycopg2==2.8.3 openshift
 
 # Install Ansible
 RUN pip install ansible==2.8.4
+
+RUN pip install ansible-modules-hashivault
